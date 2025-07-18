@@ -121,13 +121,55 @@ main>section {
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* fashin related styles */
+ #feature-section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+ }
+ .features{
+    gap: 100px;
+ }
+ .feature-card{
+     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    border-radius: 8px;
+ }
+ .feature-card .feature-style{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+ }
+ #experience-year{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: -100px;
+    
+ }
+ #experience-badge{
+    font-size: 4rem;
+    font-weight: 700;
+ }
+ .eature-architect img{
+    width: 100%;
+/* some facts related style  */
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    
+}
 
 
 /* responsive media query */
 @media screen and (max-width:576px){
     .navbar, 
     .nav-links, 
-    .team {
+    .team
+    .features {
         flex-direction: column;
     }
    .team-img-container, .fact-container, .sponsor-companies{
@@ -160,13 +202,7 @@ main>section {
     
     
 }
-/* some facts related style  */
-.fact-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
 
-    
-}
 
 .fact-number{
     font-size: 2.8rem;
@@ -185,6 +221,10 @@ main>section {
 }
 .main-container{
     margin-left: 250px;
+}
+.experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 /* medium device  */
